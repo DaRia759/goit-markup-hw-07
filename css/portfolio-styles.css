@@ -1,0 +1,101 @@
+
+
+/*Cursor*/
+
+.pointer {
+  cursor: pointer;
+}
+
+.cursor {
+  position: absolute;
+  width: 16px;
+  height: 16px;
+  left: 482px;
+  top: 213px;
+}
+
+.cursor > div {
+  position: absolute;
+  left: 8.33%;
+  right: 8.33%;
+  top: 0%;
+  bottom: 0%;
+
+}
+
+.cursor > div:hover {
+  background: #000000; 
+}
+
+/*Filters*/
+
+.filters {
+  font-weight: 600;
+  letter-spacing: 0.04em;
+}
+
+/*Button*/
+
+.button {
+  color: var(--button-text-color);
+  background-color: var(--button-bg-color);
+}
+
+.button.primary {
+  color: var(--pr-button-text-color);
+  background-color: var(--pr-button-bg-color);
+}
+
+.button.secondary {
+  color: var(--sc-button-text-color);
+  background-color: var(--sc-button-bg-color);
+}
+/*Works*/
+
+.work-list .item {
+  text-decoration: none;
+  font-weight: 400;
+  font-size: 16px;
+
+}
+
+.title {
+
+
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 1.2;
+}
+
+/*Footer*/
+
+.footer {
+  width: 1440px;
+  height: 310px;
+  left: 0px;
+  top: 1764px;
+  
+  background-color: var(--title-text-color);
+
+}
+
+.footer-text {
+  width: 264px;
+  height: 72px;
+  left: 156px;
+  top: 2421px;
+
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+
+  letter-spacing: 0.02em;
+
+  color: #e7e9fc;
+}
+
+.logo-studio {
+  color: #f4f4fd;
+}
+
+
