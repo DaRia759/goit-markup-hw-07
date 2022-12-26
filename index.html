@@ -381,12 +381,25 @@
                 </ul>
             </article>
             
+            <article>
+                <p class="subscribe-title">Subscribe</p>
 
+                <form class="subscribe-form">
+                    <label for="" class="subscribe-label">
+                        <input type="email" name="user_email" class="subscribe-form-desc" required pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,4}$" placeholder="E-mail">
+
+                    </label>
+
+                    <button type="button" class="subscribe-email-button">Subscribe<span class="subscribe-icon"><svg width="24" height="24">
+                        <use href="/"></use></svg></span>
+                    </button>
+                </form>
+            </article>
         </div>
                   
     </footer>
 
-    <div class="backdrop" data-modal>
+    <div class="backdrop is-hidden" data-modal>
         <div class="modal">
             <button type="button" data-modal-close class="modal-close">
                 <svg width="8" height="8">
@@ -450,13 +463,11 @@
                 </label>
 
 
-                <input id="user-policy" type="checkbox" name="user_policy" class="modal-form-check">
-                <label for="user-policy" class="modal-form-check-desc">
-                    I accept the terms and conditions of the <a href="">Privacy Policy</a>
+                <input id="user-policy" type="checkbox" name="user_policy" class="modal-form-check visually-hidden">
+                <label for="user-policy" class="modal-form-check-desc">I accept the terms and conditions of the&nbsp;
+                    <a href="" class="modal-form-link">Privacy Policy</a>
                 </label>
-
-
-                <button class="modal-form-submit">Send</button>
+                <button type="button" class="modal-form-button">Send</button>
             </form>
         </div>
        
