@@ -1060,7 +1060,7 @@ section {
 }
 
 .modal-form-check:focus + .modal-form-check-desc::before {
-  background-image: url(/images/accept.svg);
+  background-image: url(./images/accept.svg);
   background-repeat: no-repeat;
 
   background-color: #404BBF;
