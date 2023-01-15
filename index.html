@@ -23,12 +23,72 @@
                     <li class="page-items"><a href="/" class="link page-link">Contacts</a></li>
                 </ul>
             </nav>
-            
+            <button type="button" class="mobile-menu-open js-open-menu">
+                <svg class="mobile-open-icon" width="32" height="22">
+                    <use href="./images/icons.svg#icon-burger"></use>
+                </svg>
+            </button>
             <ul class="page-contact list">
                 <li><a class="page-contact-email link" href="mailto:info@devstudio.com">info@devstudio.com</a></li>
                 <li><a class="page-contact-phone-number link" href="tel:+110001111111">+11 (000) 111-11-11</a></li>
             </ul>
             
+        </div>
+        <div class="mobile-menu js-menu-container">
+            <div class="container mobile-menu-container">
+                <button type="button" class="mobile-menu-close js-close-menu">
+                    <svg width="8" height="8">
+                        <use href="./images/icons.svg#icon-close-black"></use>
+                    </svg>
+                </button>
+                <ul class="mobile-menu-list list">
+                    <li>
+                        <a class="link" href="./index.html">Studio</a>
+                    </li>
+                    <li>
+                        <a class="link" href="./portfolio.html">Portfolio</a>
+                    </li>
+                    <li>
+                        <a class="link" href="/">Contacts</a>
+                    </li>
+                </ul>
+                
+                <ul class="mobile-contact list">
+                    <li><a class="page-contact-email link" href="mailto:info@devstudio.com">info@devstudio.com</a></li>
+                    <li><a class="page-contact-phone-number link" href="tel:+110001111111">+11 (000) 111-11-11</a></li>
+                </ul>
+
+                <ul class="mobile-menu-social-link list">
+                    <li>
+                        <a href="" class="social-list-link">
+                            <svg width="16" height="16">
+                                <use href="./images/icons.svg#icon-instagram"></use>
+                            </svg>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="" class="social-list-link">
+                            <svg width="16" height="16">
+                                <use href="./images/icons.svg#icon-twitter"></use>
+                            </svg>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="" class="social-list-link">
+                            <svg width="16" height="16">
+                                <use href="./images/icons.svg#icon-facebook"></use>
+                            </svg>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="" class="social-list-link">
+                            <svg width="16" height="16">
+                                <use href="./images/icons.svg#icon-linkedin"></use>
+                            </svg>
+                        </a>
+                    </li>
+                </ul>
+            </div>
         </div>
     </header>
 
@@ -36,13 +96,13 @@
         
         <!--Section 1-->
         <section class="hero">
-                <div class="container">
-                 <h1 class="hero-title">Effective Solutions <br> for Your Business</h1>
-                    <button type="button" data-modal-open class="order-button">Order Service</button>
-                </div>
+            <div class="container">
+                <h1 class="hero-title">Effective Solutions <br> for Your Business</h1>
+                <button type="button" data-modal-open class="order-button">Order Service</button>
+            </div>
         </section>
 
-        <section>     
+        <section class="features">     
             <!--Features-->
             <div class="container">
                 <ul class="list features-container">
@@ -109,7 +169,7 @@
         <section class="section-work">
             <div class="container">
                 <!--Team-->
-                <h2 class="section-title">Our Team</h2>
+                <h2 class="section-work-title">Our Team</h2>
                 <ul class="member-list list">
                     <li class="member-list-item item">
                         <img src="./images/mark_guerrero.jpg" alt="Mark_Guerrero" width="264" height="260">
@@ -282,9 +342,9 @@
             </div>
         </section>
 
-        <section>
+       <section>
             <div class="container customers">
-                <h2 class="section-title">Customers</h2>
+                <h2 class="section-customers-title">Customers</h2>
                 <ul class="customer-list list">
                     <li>
                         <a class="customer-list-item" href="">
@@ -335,9 +395,8 @@
                     </li>
                 </ul>
             </div>
-            
         </section>
-    </main>  
+    </main> 
     <footer class="footer">
         <!--Footer-->
         <div class="container social-media">
@@ -474,5 +533,6 @@
     </div>
 
     <script src="./js/modal.js"></script>
+    <script src="./js/mobile-menu.js"></script>
 </body>
 </html>
