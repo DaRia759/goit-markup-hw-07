@@ -124,6 +124,7 @@ body {
 @media screen and (min-width: 480px), and (max-width: 767px) {
   .container {
     width: 428px;
+    margin: 0 auto;
   }
 
   section {
@@ -1382,6 +1383,7 @@ body {
     padding-bottom: 96px;
   }
 
+  
 
   .section-customers-title {
     color: var(--title-text-color);
@@ -1557,6 +1559,7 @@ body {
 
   }
 
+
   .social-media {
     display: flex;
     flex-direction: column;
@@ -1662,6 +1665,16 @@ body {
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
   }
 
+  
+  .footer-logo-text {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    margin-bottom: 72px;
+  }
+
+  
 
   .footer-text {
     width: 264px;
@@ -1683,12 +1696,13 @@ body {
     color: #f4f4fd;
   }
 
-  .footer .container{
-    display: flex;
-    justify-content: space-between;
 
+
+  .footer-social-media {
+    margin-bottom: 72px;
   }
 
+  
   .social-media-title {
     text-align: center;
 
